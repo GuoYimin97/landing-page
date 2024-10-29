@@ -18,6 +18,8 @@ body {
     font-style: normal;
     background-color: #1f2937;
     color: #F9FAF8;
+    padding-left: 240px;
+    padding-right: 240px;
     /* flex-basis: auto; */
 }
 
@@ -25,6 +27,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-top: 16px;
 }
 
 .header-logo-text {
