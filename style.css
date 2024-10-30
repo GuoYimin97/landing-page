@@ -4,13 +4,12 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
 }
 
 /* first section of the webpage */
 .intro {
-    height: 500px;
-    /* width: 1600px; */
+    flex-basis: 500px;
+    min-width: 1200px;
     display: flex;
     flex-direction: column;
     font-family: "Roboto", sans-serif;
@@ -20,7 +19,6 @@ body {
     color: #F9FAF8;
     padding-left: 240px;
     padding-right: 240px;
-    /* flex-basis: auto; */
 }
 
 .header {
@@ -32,6 +30,7 @@ body {
 
 .header-logo-text {
     font-size: 24px;
+    font-weight: 600;
     color: #F9FAF8;
 }
 
@@ -59,25 +58,91 @@ a {
     flex: 1;
 }
 
+.intro-body-left {
+    flex-basis: 450px;
+}
+
+.intro-body-right {
+    flex-basis: 350px;
+    padding: 100px 60px;
+    background-color: rgb(87, 94, 105);
+}
+
 .intro-title {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
 }
 
+.intro-subtext {
+    margin: 12px 2px;
+}
+
+button {
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 0;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-weight: 800;
+}
+
 /* second section of the webpage */
 .rndm-info {
     height: 500px;
+    /* min-width: 1200px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #F9FAF8;
+    color: rgb(48, 51, 66);
+    padding-left: 240px;
+    padding-right: 240px;
 }
 
+.rndm-info-title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.rndm-info-body {
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.text {
+    text-align: center;
+}
+
+/* third section of the webpage */
 .quote {
     height: 500px;
 }
 
+
+/* forth section of the webpage */
 .cta {
     height: 500px;
 }
 
+
+/* fifth section of the webpage */
 .footer {
     height: 48px;
 }
