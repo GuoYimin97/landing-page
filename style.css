@@ -8,7 +8,7 @@ body {
 
 /* first section of the webpage */
 .intro {
-    flex-basis: 500px;
+    flex-basis: 600px;
     min-width: 1200px;
     display: flex;
     flex-direction: column;
@@ -62,11 +62,11 @@ a {
     flex-basis: 450px;
 }
 
-.intro-body-right {
+/* .intro-body-right {
     flex-basis: 350px;
     padding: 100px 60px;
     background-color: rgb(87, 94, 105);
-}
+} */
 
 .intro-title {
     color: #F9FAF8;
@@ -78,7 +78,7 @@ a {
     margin: 12px 2px;
 }
 
-button {
+.btn1 {
     cursor: pointer;
     padding: 8px 12px;
     border-radius: 8px;
@@ -88,10 +88,11 @@ button {
     font-weight: 800;
 }
 
+
 /* second section of the webpage */
 .rndm-info {
     height: 500px;
-    /* min-width: 1200px; */
+    min-width: 1200px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -130,19 +131,97 @@ button {
     text-align: center;
 }
 
+
 /* third section of the webpage */
 .quote {
-    height: 500px;
+    height: 400px;
+    min-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    /* gap: 12px; */
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    padding-left: 240px;
+    padding-right: 240px;
 }
 
+.quote-message {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+    width: 1000px;
+    align-self: center;
+}
+
+.quote-by {
+    align-self: flex-end;
+    padding-right: 120px;
+    font-size: 24px;
+    font-weight: bold;
+}
 
 /* forth section of the webpage */
 .cta {
-    height: 500px;
+    height: 160px;
+    min-width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #F9FAF8;
+    border-radius: 12px;
+    background-color: #3882f6;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 336px;
+    margin-right: auto;
+    padding: 0 100px;
 }
 
+.cta-message1 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e5e7eb;
+}
+
+.cta-message2 {
+    font-size: 14px;
+    font-weight: normal;
+    color: #e5e7eb;
+    margin-top: 4px;
+}
+
+.btn2 {
+    cursor: pointer;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: white;
+    font-weight: 800;
+    border-color: white;
+}
 
 /* fifth section of the webpage */
 .footer {
-    height: 48px;
+    height: 80px;
+    min-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #1f2937;
+    color: #F9FAF8;
+    padding-left: 240px;
+    padding-right: 240px;
+    font-size: 12px;
 }
