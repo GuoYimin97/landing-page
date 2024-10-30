@@ -173,7 +173,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: hsl(133, 44%, 63%);
+    background-color: white;
 }
 
 .cta {
