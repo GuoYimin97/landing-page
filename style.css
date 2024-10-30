@@ -166,6 +166,16 @@ a {
 }
 
 /* forth section of the webpage */
+.cta-bkg {
+    height: 360px;
+    min-width: 1600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(133, 44%, 63%);
+}
+
 .cta {
     height: 160px;
     min-width: 800px;
@@ -181,8 +191,8 @@ a {
     background-color: #3882f6;
     margin-top: 100px;
     margin-bottom: 100px;
-    margin-left: 336px;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     padding: 0 100px;
 }
 
